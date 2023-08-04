@@ -1,0 +1,280 @@
+body {
+    display: flex;
+    justify-content: center;
+	text-align: center;
+	color:white;
+	background-image: url("https://wallpapercave.com/wp/wp6751611.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.window {
+	position:absolute;
+    margin-top: 8%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    font-family: "Lato";
+    background-color: black;;
+	border-radius: 20px;
+	border:5px outset grey;
+
+    animation: slideUp 2500ms ease;
+}
+
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+
+    }
+}
+
+.cont {
+    width: 65%;
+    padding: 5% 10%;
+}
+
+h2 {
+    align-self: center;
+}
+
+form {
+    width: 100%;
+
+     
+        margin-top: 10px;
+    
+
+    input {
+        width: 100%;
+        min-height: 25px;
+        border: 0;
+        font-size: 1rem;
+        letter-spacing: .15rem;
+        font-family: "Arimo";
+        margin-top: 5px;
+        color: maroon;
+        border-radius: 4px;
+    }
+
+    label {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: $maroon;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 10px;
+        color: $title;
+        letter-spacing: 1px;
+    }
+
+    h2:nth-of-type(2) {
+        margin-top: 50%;
+    }
+}
+
+
+.name {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+    div {
+        width: 45%;
+    }
+}
+
+.address {
+    text-align: center;
+}
+
+.address-info {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        width: 30%;
+    }
+}
+
+.cred-card {
+    text-align: center;
+}
+
+.numcard {
+    text-align: center;
+}
+.infocard {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        width: 45%;
+    }
+}
+
+.rbton {
+    float: right;
+  border: 0;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #4ea72a;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-radius: 15px;
+}
+.rbton:hover {
+    background-color: #0dff05;
+  }
+
+.rbton:active{
+    background-color: #250e50
+  }
+
+.lbton {
+    float: left;
+  border: 0;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #e05f5f;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-radius: 15px;
+}
+.lbton:hover {
+    background-color: #ff0000;
+  }  
+  
+.lbton:active{
+    background-color: #250e50
+  }
+
+@media (max-width: 736px) {
+    .window {
+        width: 100%;
+    }
+
+    .cont {
+        width: 100%;
+    }
+
+    .bton {
+        align-items: center;
+
+        button {
+            width: 45%;
+        }
+    }
+
+    form h1 {
+        text-align: center;
+    }
+
+    .name,
+    .address-info,
+    .infocard {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+
+        div {
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            display: flex;
+        }
+    }
+
+    .address,
+    .cc.no {
+        text-align: center;
+    }
+
+    input {
+        margin: 5px 0;
+        min-height: 30px;
+    }
+}
+#foot{
+	padding-left: 350px;
+	padding-top:10px;
+	margin-left:0px;
+	margin-top:1000px;
+	position:absolute;
+	height: 190px;
+	width:1150px;
+	display: block;
+	background-color:black;
+	color:White;
+	text-align:left;
+}
+#foot1{
+	text-align: center;
+	padding-top: 1px;
+	height: 40px;
+	position:absolute;
+	width:1500px;
+	display: block;
+	background-color:white;
+	color:black;
+	position:absolute;
+	margin-top:1190px;
+}
+#m1{
+	background-color:transparent;
+	margin-left: 680px;
+	color:white;
+}
+#m2{
+	background-color:transparent;
+	margin-left: 707px;
+	color:white;	
+}
+#m3{
+	background-color:transparent;
+	margin-left: 675px;
+	color:white;	
+}
+#m4{
+	background-color:transparent;
+	margin-left: 524px;
+	color:white;	
+}
+#first{
+		 text-align: center;
+            color: saddlebrown;
+			top: 100px;
+            font-size: 2.9em;
+            transition: 0.5s;
+            font-family: Arial, Helvetica, sans-serif;
+}
+#first {
+             text-shadow: 0 1px 0 black, 0 2px 0 black,
+                0 1px 0 black, 0 2px 0 black,
+                0 2px 0 black, 0 3px 0 black,
+                0 3px 0 black, 0 4px 0 black,
+                0 4px 0 black, 0 5px 0 black,
+                0 5px 0 black, 0 6px 0 black,
+                0 10px 10px rgba(0, 0, 0, 0.5);
+        }
+#mob{
+  border: 5px outset green;
+  background-color:green;
+  position: absolute;
+  margin-top: 2.7%;
+  left: 400px;
+  width: 150px;
+  height: 90px; 
+}

@@ -1,0 +1,110 @@
+/* CSS Document */
+body{
+	background-image: url("https://wallpapercave.com/wp/wp6751611.jpg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+    background-size: 100% 100%;
+	text-align:center;
+}
+/*          THE 3D EFFECT ON THE TEXT HEADER TEXT         */
+#zero{
+       text-align: center;
+       color: saddlebrown;
+	   top: 90px;
+       font-size: 2.5em;
+       transition: 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+}
+#zero {
+             text-shadow: 0 1px 0 black, 0 2px 0 black,
+                0 1px 0 black, 0 2px 0 black,
+                0 2px 0 black, 0 3px 0 black,
+                0 3px 0 black, 0 4px 0 black,
+                0 4px 0 black, 0 5px 0 black,
+                0 5px 0 black, 0 6px 0 black,
+                0 10px 10px rgba(0, 0, 0, 0.5);
+        }
+/***********************************************/
+
+#first{
+	text-align : center;
+	color: darkcyan;
+}
+#second{
+	text-align : center;
+	color: darkcyan;
+}
+
+/*****************BORDER FOR LOGIN******************/
+#d1 {	
+  border-radius: 15px;
+  background-color:black;
+  border: 5px outset grey;
+  padding: 20px; 
+  position: absolute;
+  margin-top: 3%;
+  right: 1000px;
+  width: 300px;
+  height: 400px; 
+  color:white;
+}
+/**************************************************/
+
+/*****************BORDER FOR REGISTRATION***************/
+#d2 {
+	border-radius: 15px;
+	background-color:black;
+ 	border: 5px outset grey;
+  	padding: 20px; 
+ 	position: absolute;
+	margin-top: 3%;
+ 	left: 800px;
+  	width: 400px;
+  	height: 480px; 
+	color:white;
+}
+/*****************************************************/
+
+/*****************FOOTER DESIGN************/
+#foot{
+	text-align: left;
+	padding-left: 250px;
+	padding-top: 10px;
+	margin-left:0px;
+	margin-top: 700px;
+	height: 190px;
+	width:1250px;
+	display: block;
+	background-color:black;
+	color:White;
+}
+#foot1{
+	text-align: center;
+	padding-top: 1px;
+	height: 40px;
+	width:1500px;
+	display: block;
+	background-color:white;
+	color:black;
+}
+#m1{
+	background-color:transparent;
+	margin-left: 700px;
+	color:white;
+}
+#m2{
+	background-color:transparent;
+	margin-left: 727px;
+	color:white;	
+}
+#m3{
+	background-color:transparent;
+	margin-left: 695px;
+	color:white;	
+}
+#m4{
+	background-color:transparent;
+	margin-left: 544px;
+	color:white;	
+}
+/******************END OF FOOTER DESIGN****************/

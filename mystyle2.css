@@ -1,0 +1,168 @@
+/* CSS Document */
+body{
+	background-image: url("https://wallpapercave.com/wp/wp6751611.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+
+/******** 3D EFFECT ON HEADER TEXT************/
+#first {
+            text-align: center;
+            color: saddlebrown;
+			top: 90px;
+            font-size: 2.5em;
+            transition: 0.5s;
+            font-family: Arial, Helvetica, sans-serif;
+}
+#first {
+             text-shadow: 0 1px 0 black, 0 2px 0 black,
+                0 1px 0 black, 0 2px 0 black,
+                0 2px 0 black, 0 3px 0 black,
+                0 3px 0 black, 0 4px 0 black,
+                0 4px 0 black, 0 5px 0 black,
+                0 5px 0 black, 0 6px 0 black,
+                0 10px 10px rgba(0, 0, 0, 0.5);
+        }
+/*******************************************/
+mark{
+	background-color:transparent;
+}
+.p1{
+	color:white;
+	font-size: 20px;
+}
+/*******DIV FOR THE FIRST BOX OF INTRO************/
+#div1{
+	text-align: center;
+	background-color: black;
+	border-radius: 10px;
+	position:absolute;
+	width : 300px;
+	height : 150px;
+	top:250px;
+	border:5px inset grey;
+	left: 900px;
+}
+/*************************************************/
+
+#div2{
+	text-align: center;
+	background-color: black;
+	border-radius: 10px;
+	position:absolute;
+	width : 300px;
+	height : 250px;
+	border:5px inset grey;
+	top: 470px;
+	left: 900px;
+}
+/****************Image div, the images come one after another******************/
+#div3::after{
+	text-align: center;
+	border-radius: 10px;
+	position:absolute;
+	width : 300px;
+	height : 150px;
+	top: 470px;
+	left: 320px;
+}
+/**********************************************************************/
+
+/***********SECOND IMAGE DIV*************************/
+#div4::after{
+	text-align: center;
+	border-radius: 10px;
+	position:absolute;
+	width : 300px;
+	height : 150px;
+	right: 100px;
+	top: 10px;
+	
+}
+/*****************************************************/
+
+/**********third text box***********/
+#div5{
+	text-align: center;
+	padding-top: 10px;
+	background-color: black;
+	border-radius: 10px;
+	position:absolute;
+	width : 270px;
+	height : 130px;
+	top:360px;
+	border:5px inset grey;
+	left: 1220px;
+	
+}
+/******************************/
+
+/**********Navigation bar design**************/
+.navigator {
+  overflow:hidden;
+  background-color: black;
+}
+
+.navigator a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigator a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.navigator a.active {
+  background-color: white;
+  color: black;
+}
+/***********************************/
+
+/*************FOOTER STYLING***************/
+#foot{
+	padding-left: 250px;
+	padding-top:10px;
+	margin-left:0px;
+	margin-top:200px;
+	height: 190px;
+	width:1250px;
+	display: block;
+	background-color:black;
+	color:White;
+}
+#foot1{
+	text-align: center;
+	padding-top: 1px;
+	height: 40px;
+	width:1500px;
+	display: block;
+	background-color:white;
+	color:black;
+}
+#m1{
+	background-color:transparent;
+	margin-left: 700px;
+	color:white;
+}
+#m2{
+	background-color:transparent;
+	margin-left: 727px;
+	color:white;	
+}
+#m3{
+	background-color:transparent;
+	margin-left: 695px;
+	color:white;	
+}
+#m4{
+	background-color:transparent;
+	margin-left: 544px;
+	color:white;	
+}
+/***************************************/

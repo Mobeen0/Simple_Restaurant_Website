@@ -1,0 +1,159 @@
+
+body{
+	background-image: url("https://wallpapercave.com/wp/wp6751611.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+	color:white;
+}
+/**********************3D HEADER STYLING****************/
+#first {
+            text-align: center;
+            color: saddlebrown;
+			top: 90px;
+            font-size: 2.5em;
+            transition: 0.5s;
+            font-family: Arial, Helvetica, sans-serif;
+}
+#first {
+             text-shadow: 0 1px 0 black, 0 2px 0 black,
+                0 1px 0 black, 0 2px 0 black,
+                0 2px 0 black, 0 3px 0 black,
+                0 3px 0 black, 0 4px 0 black,
+                0 4px 0 black, 0 5px 0 black,
+                0 5px 0 black, 0 6px 0 black,
+                0 10px 10px rgba(0, 0, 0, 0.5);
+        }
+/****************************************************/
+
+/*****************NAVIGATION BAR************************/
+.navigator {
+  overflow:hidden;
+  background-color: black;
+}
+
+.navigator a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigator a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.navigator a.active {
+  background-color: white;
+  color: black;
+}
+/********************************************/
+
+/***************MEAL BOXES ON page********************/
+#div1 {	
+  border-radius: 15px;
+  border: 5px outset grey;
+  background-color: black;
+  padding-left: 130px;
+  position: absolute;
+  margin-top: 3%;
+  left: 220px;
+  width: 350px;
+  height: 360px; 
+}
+#div2 {	
+ 
+  border-radius: 15px;
+  border: 5px outset grey;
+  background-color: black;
+  padding-left: 130px;
+  position: absolute;
+  margin-top: 3%;
+  right: 220px;
+  width: 350px;
+  height: 360px; 
+}
+#div3 {	
+  border-radius: 15px;
+  border: 5px outset grey;
+  background-color: black;
+  padding-left: 130px;
+  position: absolute;
+  margin-top: 500px;
+  left: 220px;
+  width: 350px;
+  height: 360px; 
+}
+#div4 {	
+
+  border-radius: 15px;
+  border: 5px outset grey;
+  background-color: black;
+  padding-left: 130px;
+  position: absolute;
+  margin-top: 500px;
+  right: 220px;
+  width: 350px;
+  height: 360px; 
+}
+#div5{
+  border-radius: 15px;
+  border: 5px outset grey;
+  background-color: black;
+  padding-left: 80px;
+  position: absolute;
+  margin-top: 950px;
+  left: 530px;
+  width: 350px;
+  height: 400px; 
+}
+/*****************************************/
+
+/********************FOOTER DESIGN********************/
+#foot{
+	padding-left:250px;
+	padding-top: 10px;
+	margin-left:0px;
+	margin-top: 1400px;
+	height: 230px;
+	width:1250px;
+	display: block;
+	background-color:black;
+	color:White;
+}
+#foot1{
+	text-align: center;
+	padding-top: 1px;
+	height: 40px;
+	width:1500px;
+	display: block;
+	background-color:white;
+	color:black;
+}
+#m1{
+	background-color:transparent;
+	margin-left: 700px;
+	color:white;
+}
+#m2{
+	background-color:transparent;
+	margin-left: 727px;
+	color:white;	
+}
+#m3{
+	background-color:transparent;
+	margin-left: 695px;
+	color:white;	
+}
+#m4{
+	background-color:transparent;
+	margin-left: 544px;
+	color:white;	
+}
+#p1{
+	text-align:center;
+}
+/***********************************************/

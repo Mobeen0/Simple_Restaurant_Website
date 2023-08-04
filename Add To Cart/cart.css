@@ -1,0 +1,280 @@
+@import "compass/css3";
+
+/* Global settings */
+$color-border: blue;
+$color-label: black;
+$font-default: Georgia, Serif;
+$font-bold: Georgia;
+$font-style: normal;
+
+
+/* Global "table" column settings */
+.image { float: left; width: 20%; }
+.details { float: left; width: 37%;  }
+.price { float: left; width: 12%; }
+.quantity { float: left; width: 10%; }
+.removal { float: left; width: 9%;}
+.end-price { float: left; width: 12%; text-align: right;}
+.all {float: right; width : 25%; text-align: left;}
+
+
+/* This is used as the traditional .clearfix class */
+.group:before,
+.group:after {
+    content: '';
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
+
+/* Apply clearfix in a few places */
+.shopping-cart, .column-labels, .product, .totals-item {
+  @ extend .group;
+}
+body{
+	background-image:url("https://wallpapercave.com/wp/wp6751611.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+#first{
+		 text-align: center;
+            color: saddlebrown;
+			top: 100px;
+            font-size: 2.9em;
+            transition: 0.5s;
+            font-family: Arial, Helvetica, sans-serif;
+}
+#first {
+             text-shadow: 0 1px 0 black, 0 2px 0 black,
+                0 1px 0 black, 0 2px 0 black,
+                0 2px 0 black, 0 3px 0 black,
+                0 3px 0 black, 0 4px 0 black,
+                0 4px 0 black, 0 5px 0 black,
+                0 5px 0 black, 0 6px 0 black,
+                0 10px 10px rgba(0, 0, 0, 0.5);
+        }
+h2{
+	text-align:center;
+}
+
+.product .price:before, .product .end-price:before, .totals-value:before {
+  content: 'Rs ';
+}
+
+.product .price:after, .product .end-price:after, .totals-value:after 
+{
+  content: ' /-';
+}
+
+
+/* Body/Header stuff */
+body {
+  padding: 0px 30px 30px 20px;
+  font-family: $font-default;
+  font-weight: 100;
+}
+
+
+label {
+  color: $color-label;
+}
+
+.shopping-cart {
+  margin-top: -45px;
+}
+
+
+/* Column headers */
+.column-labels {
+  label {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $color-border;
+  }
+  
+  .image, .details, .removal {
+    text-indent: -9999px;
+  }
+}
+
+
+/* Product entries */
+.product {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $color-border;
+  
+  .image {
+    text-align: center;
+    img {
+      width: 100px;
+    }
+  }
+  
+  .details {
+    .product-title {
+      margin-right: 20px;
+      font-family: $font-bold;
+    }
+    .description {
+      margin: 5px 20px 5px 0;
+      line-height: 1.4em;
+    }
+  }
+  
+  .quantity {
+    input {
+      width: 40px;
+       }
+       
+  }
+  
+  /* ensures the increment/decrement arrows always display */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+
+
+
+/* Totals section */
+.totals {
+  .totals-item {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-bottom: 10px;
+    
+    label {
+      float: left;
+      clear: both;
+      width: 79%;
+      text-align: right;
+    }
+    
+    .totals-value {
+      float: right;
+      width: 21%;
+      text-align: right;
+    }
+  }
+  
+  .totals-item-total {
+    font-family: $font-bold;
+  }
+}
+
+}
+.add{
+  float: right;
+  border: 0;
+  margin: 20px;
+  padding: 6px 15px;
+  background-color: #51a6df;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.add:hover 
+{
+  background-color: #5900ff;
+}
+
+.add:active{
+  background-color: #250e50
+}
+
+.Discard{
+  float: left;
+  border: 0;
+  margin-bottom: 0px;
+  padding: 3px 10px;
+  background-color: #ff7e7e;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.Discard:hover 
+{
+  background-color: #f50000;
+}
+
+.Discard:active{
+  background-color: #250e50
+}
+#foot{
+	padding-left:250px;
+	padding-top: 10px;
+	margin-left:0px;
+	margin-top: 550px;
+	height: 230px;
+	width:1490px;
+	display: block;
+	background-color:black;
+	color:White;
+}
+#foot1{
+	text-align: center;
+	padding-top: 1px;
+	height: 40px;
+	width:1490px;
+	display: block;
+	background-color:white;
+	color:black;
+}
+#m1{
+	background-color:transparent;
+	margin-left: 700px;
+	color:white;
+}
+#m2{
+	background-color:transparent;
+	margin-left: 727px;
+	color:white;	
+}
+#m3{
+	background-color:transparent;
+	margin-left: 695px;
+	color:white;	
+}
+#m4{
+	background-color:transparent;
+	margin-left: 544px;
+	color:white;	
+}
+#p1{
+	text-align:center;
+}
+.navigator {
+  overflow:hidden;
+  background-color: black;
+}
+
+.navigator a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigator a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.navigator a.active {
+  background-color: white;
+  color: black;
+}
